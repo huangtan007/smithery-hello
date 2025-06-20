@@ -1,5 +1,12 @@
 {
   "name": "mcp-server",
-  "module": "./src/index.ts",
-  "type": "module"
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "smithery build",
+    "start": "smithery dev"
+  },
+  "dependencies": {
+    "smithery": "^0.2.0"  // 假设的版本，请用最新的
+  }
 }
