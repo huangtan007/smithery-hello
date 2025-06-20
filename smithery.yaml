@@ -1,3 +1,4 @@
 runtime: "typescript"
+entrypoint: "src/index.ts"
 env:
   NODE_ENV: "production"
