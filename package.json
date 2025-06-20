@@ -1,0 +1,17 @@
+{
+  "name": "smithery-hello",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "smithery dev",
+    "build": "smithery build -o .smithery/index.cjs"
+  },
+  "dependencies": {
+    "smithery": "^1.2.9"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
+
